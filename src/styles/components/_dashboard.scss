@@ -1,0 +1,18 @@
+#dashboard .container h4{
+	margin-right:10px;
+} 
+#dashboard .container h4 a{
+	text-decoration:none;
+}
+.alert_thank_you {
+    top: 117%;
+    left: 50%;
+    position: absolute;
+}
+.inner_thank_you{
+	background-color: $darkest_blue;
+	border: 1px solid $text_color;
+	padding: 0px 10px;
+    position: relative; 
+	left: -50%; 
+}

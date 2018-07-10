@@ -1,0 +1,20 @@
+.ReactModal__Overlay {
+    background-color:rgba(1,2,6,0.86)!important;
+}
+
+.ReactModal__Content{
+	background-color:$darkest_blue!important;
+	width: 400px;
+    height: 340px;
+    margin: 0 auto;
+	overflow:hidden!important;
+	
+	-webkit-border-radius: 0px!important;
+	-moz-border-radius: 0px!important;
+	border-radius: 0px!important;
+}
+.password_form_modal{
+	border: 1px solid #fff;
+	height: 420px;
+	padding: 20px;
+}
