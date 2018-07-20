@@ -3,4 +3,48 @@
 	margin-left:60px;
 }
 
+@media only screen and (max-width:850px){
+	#main_page .container h2{
+		font-size: $largest_font;
+	}
+}
+
+@media only screen and (max-width:700px){
+	#main_page .container h2{
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width:530px){
+	#main_page .container h2{
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.ReactModal__Content h2{
+		font-size: $medium_font;
+	}
+
+	.close_modal{font-size:36px!important;}
+
+	.ReactModal__Body--open .ReactModal__Content{
+		font-size:18px!important;
+		width:300px;
+	}
+
+	#registration_form p{
+		font-size:14px;
+	}
+
+	#registration_form button{
+		font-size:14px;
+	}
+}
+
+@media only screen and (max-width:410px){
+	.ReactModal__Body--open .ReactModal__Content{
+		width:190px;
+	}
+}
+
 .ReactModal__Content h2{margin-top:0px;}

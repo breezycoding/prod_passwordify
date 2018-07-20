@@ -1,3 +1,18 @@
 #header{
 	background-color: $dark_blue;
 }
+
+@media only screen and (max-width:850px){
+	#header .container{text-align: center;}
+	#header .container h1{ font-size: $largest_font;}
+	#header .container p{ font-size: 18px; }
+}
+
+@media only screen and (max-width:700px){
+	#header .container h1{ font-size: $small_font; }
+	#header .container p{ font-size: 14px; }
+}
+
+@media only screen and (max-width:530px){
+	#header .container p{ display: none; }
+}
